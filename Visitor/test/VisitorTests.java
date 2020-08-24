@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class VisitorTests {
 
     @Test
-    void test01CreoUnAtaqueDeMisilLoMandoAUnSoldadoYSuVidaEsCero(){
+    public void test01CreoUnAtaqueDeMisilLoMandoAUnSoldadoYSuVidaEsCero(){
         Unidad soldado = new Soldado();
         Misil unMisil = new Misil();
 
@@ -16,7 +16,7 @@ public class VisitorTests {
     }
 
     @Test
-    void test02CreoUnAtaqueDePistolaLoMandoAUnSoldadoYSuVidaEsSetenta(){
+    public void test02CreoUnAtaqueDePistolaLoMandoAUnSoldadoYSuVidaEsSetenta(){
         Unidad soldado = new Soldado();
         AtaquePistola pistola = new AtaquePistola();
 
@@ -26,7 +26,7 @@ public class VisitorTests {
     }
 
     @Test
-    void test03CreoUnAtaqueDePistolaLoMandoAUnTanqueYSuVidaSigueSiendoLaInicial(){
+    public void test03CreoUnAtaqueDePistolaLoMandoAUnTanqueYSuVidaSigueSiendoLaInicial(){
         Unidad tanque = new Tanque();
         AtaquePistola pistola = new AtaquePistola();
 
@@ -38,7 +38,7 @@ public class VisitorTests {
     }
 
     @Test
-    void test04CreoUnMisilLoMandoAUnTanqueYSuVidaEs300(){
+    public void test04CreoUnMisilLoMandoAUnTanqueYSuVidaEs300(){
         Unidad tanque = new Tanque();
         Misil misil = new Misil();
 

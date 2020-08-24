@@ -16,6 +16,7 @@
 
     <modules>
             <module>Visitor</module>
+            <module>Composite</module>
     </modules>
 
     <dependencies>

@@ -36,7 +36,8 @@ Se muestra un diagrama, a la izquierda esta el ejemplo realizado, y a la derecha
 * **Product** Es el objeto final creado.
 
 
-Proceso de creación que se sigue generalmente.
+Proceso de creación que se sigue generalmente.  
+
 ![SecuenciaBuilder.PNG](SecuenciaBuilder.PNG "Diagrama de secuencia del proceso de armado")
 
 

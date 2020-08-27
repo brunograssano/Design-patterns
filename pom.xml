@@ -18,6 +18,7 @@
             <module>Visitor</module>
             <module>Composite</module>
             <module>Builder</module>
+            <module>Iterator</module>
     </modules>
 
     <dependencies>

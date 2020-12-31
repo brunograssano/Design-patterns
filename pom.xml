@@ -19,6 +19,7 @@
             <module>Composite</module>
             <module>Builder</module>
             <module>Iterator</module>
+            <module>Singleton</module>
     </modules>
 
     <dependencies>
